@@ -12,7 +12,7 @@
             </ul>
         </div>
     @endif
-    <form action="{{ route('projects.store') }}" method="POST" >
+    <form action="{{ route('clients.store') }}" method="POST" >
         @csrf
 
         <div class="row">
@@ -25,7 +25,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>email:</strong>
-                    <input class="form-control" type="email" style="height:50px" name="introduction"
+                    <input class="form-control" type="email" style="height:50px" name="email"
                         placeholder="email"></input>
                 </div>
             </div>
