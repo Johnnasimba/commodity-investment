@@ -1,6 +1,16 @@
 @extends('layouts.app')
 
 @section('content')
+    <div class="row" style="margin-top: 100px">
+        <div class="col-lg-12 margin-tb">
+            <div class="pull-left">
+                <h2>Sign up</h2>
+            </div>
+            <div class="pull-right">
+                <a class="btn btn-primary" href="{{ route('clients.index') }}" title="Go back"> <i class="fas fa-backward "></i> </a>
+            </div>
+        </div>
+    </div>
 
     @if ($errors->any())
         <div class="alert alert-danger">

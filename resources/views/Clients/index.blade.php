@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="row">
+    <div class="row" style="margin-top: 100px">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
                 <h2>Client CRUD Operations  </h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-success" href="{{ route('clients.create') }}" title="Create a project"> <i class="fas fa-plus-circle"></i>
+                <a class="btn btn-success" href="{{ route('clients.create') }}" title="Sign up as new client"> <i class="fas fa-plus-circle"></i>
                     </a>
             </div>
         </div>
