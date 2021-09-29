@@ -1,7 +1,6 @@
 .clp-wrapper{
-    background-image: linear-gradient(#23235f, #000);
+    background-image: linear-gradient(#142F65, #000);
     width: 100vw;
-    height: 1000px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -41,6 +40,44 @@
                 text-decoration: none;
                 font-size: 24px;
             }
+        }
+    }
+    .clp-pricing-container{       
+        height: 120px;
+        width: 100%;
+        padding: 0 20px 0 20px;       
+        .clp-pricing{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+            background-color: #0B2355; 
+            border-radius: 5px;
+            box-shadow: 5px #000;           
+            .clp-price-card{
+                width: 18%;
+                height: 100px;
+                margin-left: 0px;
+                margin-right: 5px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                background-color: #0075a3;
+                border-radius: 5px;
+                color: #fff;
+                padding: 10px;
+            }
+
+        }
+    }
+    .clp-price-chart-and-side-nav{
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
+        #tradingview_202c3{
+            margin-left: 20px;
+            margin-top: 10px;
         }
     }
 }
