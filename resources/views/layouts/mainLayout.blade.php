@@ -2,6 +2,8 @@
 
 <head>
     <title>Amara Capital</title>
+    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/client-header.css" rel="stylesheet">
 
     <!-- Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css" rel="stylesheet">
@@ -14,16 +16,7 @@
     </script>
 
     <style>
-        .footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background-color: #9C27B0;
-            color: white;
-            text-align: center;
-        }
-
+       
     </style>
 
 </head>
@@ -32,16 +25,13 @@
     @section('sidebar')
 
     @show
+    
+    @yield('header')
 
-    <div class="container">
+    <div >
         @yield('content')
     </div>
-    <div class="text-center footer">
-
-        <h4>John Nasimba</h4>
-        <h4>nasimba4john@gmail.com</h4>
-
-    </div>
+    
 </body>
 
 </html>
