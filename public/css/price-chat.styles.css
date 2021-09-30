@@ -1,0 +1,9 @@
+#tradingview_202c3 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+@media screen and (max-width: 1500px) {
+  #tradingview_202c3 {
+    display: none;
+  }
+}

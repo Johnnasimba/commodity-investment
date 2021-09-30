@@ -5,6 +5,7 @@
     <link href="/css/app.css" rel="stylesheet">
     <link href="/css/client-header.styles.css" rel="stylesheet">
     <link href="/css/client.styles.css" rel="stylesheet">
+    <link href="/css/price-chat.styles.css" rel="stylesheet">
 
     <!-- Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css" rel="stylesheet">

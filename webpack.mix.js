@@ -18,4 +18,5 @@ mix.js('resources/js/app.js', 'public/js')
 
 mix.sass('resources/sass/app.scss', 'public/css')
     .sass('resources/views/components/header/client-header.styles.scss', 'public/css')
-    .sass('resources/views/client/client.styles.scss', 'public/css');
+    .sass('resources/views/client/client.styles.scss', 'public/css')
+    .sass('resources/views/components/price-chat/price-chat.styles.scss', 'public/css');
