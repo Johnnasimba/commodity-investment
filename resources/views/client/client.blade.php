@@ -85,19 +85,19 @@
                 <ul class="clp-client-status-container">
                     <li class="clp-status">
                         <h4>R0.00</h4>
-                        <h5>AVAILABLE FUNDS</h5>
+                        <h6>AVAILABLE FUNDS</h6>
                     </li>
                     <li class="clp-status">
                         <h4>201.05</h4>
-                        <h5>POOL UNITS</h5>
+                        <h6>POOL UNITS</h6>
                     </li>
                     <li class="clp-status">
                         <h4>R1990.00</h4>
-                        <h5>PROFITS</h5>
+                        <h6>PROFITS</h6>
                     </li>
                     <li class="clp-status">
                         <h4>98.86%</h4>
-                        <h5>PORTFOLIO GROWTH</h5>
+                        <h6>PORTFOLIO GROWTH</h6>
                     </li>
                 </ul>
             </div>
