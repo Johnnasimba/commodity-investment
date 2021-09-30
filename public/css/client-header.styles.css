@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap);
 .ch-wrapper {
   display: flex;
   flex-direction: row;
@@ -23,6 +24,8 @@
 .ch-wrapper .ch-client-name-container .ch-client-name {
   margin: 0;
   padding: 0;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
 }
 @media screen and (max-width: 500px) {
   .ch-wrapper .ch-client-name-container .ch-client-name {

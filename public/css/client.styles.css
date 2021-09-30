@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
 .clp-wrapper {
   background-image: linear-gradient(#142F65, #000);
   width: 100vw;
@@ -22,6 +23,7 @@
   border-bottom: 1px solid #0075a3;
 }
 .clp-wrapper .clp-page-name-container .clp-name-container h3 {
+  font-family: "Montserrat", sans-serif;
   font-size: 36px;
   color: #fff;
 }
@@ -32,7 +34,7 @@
   width: 18%;
   margin-right: 20px;
   height: 50px;
-  background-color: #e6b568;
+  background-color: #ffdd0c;
   border-radius: 5px;
 }
 .clp-wrapper .clp-page-name-container .clp-main-deposit-button a {
@@ -104,6 +106,7 @@
   width: 50%;
   height: 100px;
   background-color: #ffdd0c;
+  background-color: #e6b568;
   border-radius: 5px;
   padding: 10px;
   display: flex;
