@@ -3,7 +3,7 @@
 
 <div class="ch-wrapper">
     <div class="ch-amara-capital-logo">
-        <img src="/images/amara-capital-images/amara-capital-secondary-logo.png" alt="Amara Capital">
+        <img src="/images/amara-capital-images/Amara Capital Logo_V1-06.jpg" alt="Amara Capital">
     </div>
     <div class="ch-client-name-container">
         <h6 class="ch-client-name">Hi, John Nasimba</h6>
