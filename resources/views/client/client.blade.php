@@ -76,7 +76,7 @@
                         <button>BUY</button>
                     </div>
                     <div class="clp-silver-price-container">
-                        <h4 class="clp-silver-price">R330.73/g</h4>
+                        <h4>R330.73/g</h4>
                         <p>SILVER(XAG/ZAR)</p>
                         <button>BUY</button>
                     </div>
