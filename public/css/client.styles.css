@@ -69,6 +69,11 @@
   width: 100%;
   padding: 0 20px 0 20px;
 }
+@media screen and (max-width: 600px) {
+  .clp-wrapper .clp-pricing-container {
+    height: 240px;
+  }
+}
 .clp-wrapper .clp-pricing-container .clp-pricing {
   display: flex;
   flex-direction: row;
@@ -78,6 +83,20 @@
   background-color: #0B2355;
   border-radius: 5px;
   box-shadow: 5px #000;
+}
+@media screen and (max-width: 600px) {
+  .clp-wrapper .clp-pricing-container .clp-pricing {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 210px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .clp-wrapper .clp-pricing-container .clp-pricing {
+    height: 300px;
+  }
 }
 .clp-wrapper .clp-pricing-container .clp-pricing .clp-price-card {
   display: flex;
@@ -95,14 +114,49 @@
   color: #fff;
   padding: 10px;
 }
+@media screen and (max-width: 700px) {
+  .clp-wrapper .clp-pricing-container .clp-pricing .clp-price-card {
+    height: 80px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .clp-wrapper .clp-pricing-container .clp-pricing .clp-price-card {
+    height: 80px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .clp-wrapper .clp-pricing-container .clp-pricing .clp-price-card {
+    width: 120px;
+  }
+}
 .clp-wrapper .clp-pricing-container .clp-pricing .clp-price-card h3 {
   font-family: Montserrat-ExtraBold, sans-serif;
   font-size: 30px;
+}
+@media screen and (max-width: 1000px) {
+  .clp-wrapper .clp-pricing-container .clp-pricing .clp-price-card h3 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .clp-wrapper .clp-pricing-container .clp-pricing .clp-price-card h3 {
+    font-size: 18px;
+  }
 }
 .clp-wrapper .clp-pricing-container .clp-pricing .clp-price-card p {
   font-family: Montserrat-Regular, sans-serif;
   font-size: 14px;
   margin-bottom: 0;
+}
+@media screen and (max-width: 1000px) {
+  .clp-wrapper .clp-pricing-container .clp-pricing .clp-price-card p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .clp-wrapper .clp-pricing-container .clp-pricing .clp-price-card p {
+    font-size: 8px;
+  }
 }
 .clp-wrapper .clp-price-chart-and-side-nav {
   width: 100vw;

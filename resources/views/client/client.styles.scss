@@ -70,7 +70,10 @@
     .clp-pricing-container{       
         height: 120px;
         width: 100%;
-        padding: 0 20px 0 20px;       
+        padding: 0 20px 0 20px; 
+        @media screen and(max-width: 600px){
+            height: 240px;
+        }      
         .clp-pricing{
             display: flex;
             flex-direction: row;
@@ -79,7 +82,17 @@
             height: 100%;
             background-color: #0B2355; 
             border-radius: 5px;
-            box-shadow: 5px #000;           
+            box-shadow: 5px #000; 
+            @media screen and(max-width: 600px){
+                flex-wrap: wrap;
+                align-items: flex-start;
+                justify-content: flex-start;
+                height: 210px;
+                padding: 10px;
+            }          
+            @media screen and(max-width: 500px){
+                height: 300px;
+            }          
             .clp-price-card{
                 display: flex;
                 flex-direction: column;
@@ -95,14 +108,36 @@
                 border-radius: 5px;
                 color: #fff;
                 padding: 10px;
+                @media screen and(max-width: 700px){
+                    height: 80px;
+                }
+                @media screen and(max-width: 600px){
+                    height: 80px;
+                }
+                @media screen and(max-width: 600px){
+                    width: 120px;
+                }
                 h3{
                     font-family: Montserrat-ExtraBold, sans-serif;
                     font-size: 30px;
+                    @media screen and(max-width: 1000px){
+                        font-size: 24px;
+                    }
+                    @media screen and(max-width: 700px){
+                        font-size: 18px;
+                    }
+
                 }
                 p{
                     font-family: Montserrat-Regular, sans-serif;
                     font-size: 14px; 
                     margin-bottom: 0;
+                    @media screen and(max-width: 1000px){
+                        font-size: 12px;
+                    }
+                    @media screen and(max-width: 700px){
+                        font-size: 8px;
+                    }
                 }
             }
 
