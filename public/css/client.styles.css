@@ -1,4 +1,15 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("/fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: Montserrat-Light;
+  src: url("/fonts/Montserrat-Light.ttf");
+}
+@font-face {
+  font-family: Montserrat-ExtraBold;
+  src: url("/fonts/Montserrat-ExtraBold.ttf");
+}
 .clp-wrapper {
   background-image: linear-gradient(#142F65, #000);
   width: 100vw;
@@ -23,7 +34,7 @@
   border-bottom: 1px solid #0075a3;
 }
 .clp-wrapper .clp-page-name-container .clp-name-container h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat-Regular, sans-serif;
   font-size: 36px;
   color: #fff;
 }
@@ -34,13 +45,15 @@
   width: 18%;
   margin-right: 20px;
   height: 50px;
-  background-color: #ffdd0c;
+  background-color: #e6b568;
   border-radius: 5px;
 }
 .clp-wrapper .clp-page-name-container .clp-main-deposit-button a {
   color: #000;
   text-decoration: none;
+  font-family: Montserrat-Light, sans-serif;
   font-size: 24px;
+  font-weight: 900;
 }
 .clp-wrapper .clp-pricing-container {
   height: 120px;
@@ -58,7 +71,11 @@
   box-shadow: 5px #000;
 }
 .clp-wrapper .clp-pricing-container .clp-pricing .clp-price-card {
-  width: 18%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 19%;
   height: 100px;
   margin-left: 0px;
   margin-right: 5px;
@@ -68,6 +85,15 @@
   border-radius: 5px;
   color: #fff;
   padding: 10px;
+}
+.clp-wrapper .clp-pricing-container .clp-pricing .clp-price-card h3 {
+  font-family: Montserrat-ExtraBold, sans-serif;
+  font-size: 30px;
+}
+.clp-wrapper .clp-pricing-container .clp-pricing .clp-price-card p {
+  font-family: Montserrat-Regular, sans-serif;
+  font-size: 14px;
+  margin-bottom: 0;
 }
 .clp-wrapper .clp-price-chart-and-side-nav {
   width: 100vw;
@@ -105,7 +131,6 @@
 .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav .clp-gold-and-silver-price-container .clp-gold-price-container {
   width: 50%;
   height: 100px;
-  background-color: #ffdd0c;
   background-color: #e6b568;
   border-radius: 5px;
   padding: 10px;

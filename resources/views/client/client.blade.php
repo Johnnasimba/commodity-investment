@@ -8,7 +8,7 @@
                 <h3>Dashboard</h3>
             </div>
             <div class="clp-main-deposit-button">
-                <a href="http://">DEPOSIT</a>
+                <a href="http://"> DEPOSIT </a>
             </div>
 
         </div>
