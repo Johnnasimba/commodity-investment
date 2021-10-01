@@ -37,15 +37,51 @@
   width: 100%;
   margin-top: 20;
 }
+@media screen and (max-width: 800px) {
+  .clp-wrapper .clp-page-name-container {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .clp-wrapper .clp-page-name-container {
+    align-items: center;
+    justify-content: center;
+  }
+}
 .clp-wrapper .clp-page-name-container .clp-name-container {
   width: 78%;
   margin-left: 20px;
   border-bottom: 1px solid #0075a3;
 }
+@media screen and (max-width: 800px) {
+  .clp-wrapper .clp-page-name-container .clp-name-container {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .clp-wrapper .clp-page-name-container .clp-name-container {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .clp-wrapper .clp-page-name-container .clp-name-container {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .clp-wrapper .clp-page-name-container .clp-name-container {
+    display: none;
+  }
+}
 .clp-wrapper .clp-page-name-container .clp-name-container h3 {
   font-family: Montserrat-Regular, sans-serif;
   font-size: 36px;
   color: #fff;
+}
+@media screen and (max-width: 500px) {
+  .clp-wrapper .clp-page-name-container .clp-name-container h3 {
+    font-size: 28px;
+  }
 }
 .clp-wrapper .clp-page-name-container .clp-main-deposit-button {
   display: flex;
@@ -57,12 +93,29 @@
   background-color: #e6b568;
   border-radius: 5px;
 }
+@media screen and (max-width: 800px) {
+  .clp-wrapper .clp-page-name-container .clp-main-deposit-button {
+    width: 150px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .clp-wrapper .clp-page-name-container .clp-main-deposit-button {
+    width: 90%;
+    margin: 0;
+  }
+}
 .clp-wrapper .clp-page-name-container .clp-main-deposit-button a {
   color: #000;
   text-decoration: none;
   font-family: Montserrat-Light, sans-serif;
   font-size: 24px;
   font-weight: 900;
+}
+@media screen and (max-width: 800px) {
+  .clp-wrapper .clp-page-name-container .clp-main-deposit-button a {
+    font-size: 18px;
+  }
 }
 .clp-wrapper .clp-pricing-container {
   height: 120px;
