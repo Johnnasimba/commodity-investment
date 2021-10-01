@@ -4,5 +4,12 @@
     height: 610px;
     background-color: bisque;
     margin-left: 20px;
+    margin-right: 20px;
     margin-top: 10px;
+    @media screen and(max-width: 1600px){
+        width: 65%;
+    }
+    @media screen and(max-width: 1300px){
+        width: 60%;
+    }
 }

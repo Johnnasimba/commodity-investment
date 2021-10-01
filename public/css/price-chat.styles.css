@@ -3,5 +3,16 @@
   height: 610px;
   background-color: bisque;
   margin-left: 20px;
+  margin-right: 20px;
   margin-top: 10px;
+}
+@media screen and (max-width: 1600px) {
+  .clp-extra-large-price-chat {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .clp-extra-large-price-chat {
+    width: 60%;
+  }
 }

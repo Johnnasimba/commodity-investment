@@ -21,6 +21,7 @@
 .clp-wrapper {
   background-image: linear-gradient(#142F65, #000);
   width: 100vw;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -119,6 +120,16 @@
   align-items: flex-start;
   justify-content: center;
 }
+@media screen and (max-width: 1600px) {
+  .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav {
+    width: 30vw;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav {
+    width: 35vw;
+  }
+}
 .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav .clp-side-nav-title {
   color: #fff;
   font-family: Montserrat-Medium, sans-serif;
@@ -137,9 +148,16 @@
   box-shadow: 5px;
   border-radius: 5px;
 }
+@media screen and (max-width: 1100px) {
+  .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav .clp-gold-and-silver-price-container {
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
 .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav .clp-gold-and-silver-price-container .clp-gold-price-container {
   width: 50%;
-  height: 100px;
+  height: 120px;
   background-color: #e6b568;
   border-radius: 5px;
   padding: 10px;
@@ -147,6 +165,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+@media screen and (max-width: 1100px) {
+  .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav .clp-gold-and-silver-price-container .clp-gold-price-container {
+    width: 98%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 5px;
+    padding: 10px;
+  }
 }
 .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav .clp-gold-and-silver-price-container .clp-gold-price-container h4 {
   color: #000;
@@ -176,9 +204,14 @@
   padding: 0;
   margin: 0;
 }
+@media screen and (max-width: 1100px) {
+  .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav .clp-gold-and-silver-price-container .clp-gold-price-container button {
+    height: 40px;
+  }
+}
 .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav .clp-gold-and-silver-price-container .clp-silver-price-container {
   width: 50%;
-  height: 100px;
+  height: 120px;
   margin-left: 5px;
   background-color: #C6C8CA;
   border-radius: 5px;
@@ -187,6 +220,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+@media screen and (max-width: 1100px) {
+  .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav .clp-gold-and-silver-price-container .clp-silver-price-container {
+    width: 98%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 5px;
+    padding: 10px;
+  }
 }
 .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav .clp-gold-and-silver-price-container .clp-silver-price-container h4 {
   color: #000;
@@ -210,9 +253,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: Montserrat-Bold, sans-serif;
+  font-size: 15px;
   border-radius: 5px;
   padding: 0;
   margin: 0;
+}
+@media screen and (max-width: 1100px) {
+  .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav .clp-gold-and-silver-price-container .clp-silver-price-container button {
+    height: 40px;
+  }
 }
 .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav .clp-client-status {
   color: #fff;
