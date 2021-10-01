@@ -111,6 +111,14 @@
   align-items: flex-start;
   justify-content: space-between;
 }
+@media screen and (max-width: 700px) {
+  .clp-wrapper .clp-price-chart-and-side-nav {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}
 .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav {
   width: 25vw;
   margin-top: 10px;
@@ -128,6 +136,12 @@
 @media screen and (max-width: 1300px) {
   .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav {
     width: 35vw;
+  }
+}
+@media screen and (max-width: 700px) {
+  .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav {
+    width: 98vw;
+    margin-left: 20px;
   }
 }
 .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav .clp-side-nav-title {
@@ -209,6 +223,11 @@
     height: 40px;
   }
 }
+@media screen and (max-width: 700px) and (min-width: 400px) {
+  .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav .clp-gold-and-silver-price-container .clp-gold-price-container button {
+    width: 40%;
+  }
+}
 .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav .clp-gold-and-silver-price-container .clp-silver-price-container {
   width: 50%;
   height: 120px;
@@ -262,6 +281,11 @@
 @media screen and (max-width: 1100px) {
   .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav .clp-gold-and-silver-price-container .clp-silver-price-container button {
     height: 40px;
+  }
+}
+@media screen and (max-width: 700px) and (min-width: 400px) {
+  .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav .clp-gold-and-silver-price-container .clp-silver-price-container button {
+    width: 40%;
   }
 }
 .clp-wrapper .clp-price-chart-and-side-nav .clp-side-nav .clp-client-status {
