@@ -1,4 +1,7 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap);
+@font-face {
+  font-family: Montserrat-Light;
+  src: url("/fonts/Montserrat-Light.ttf");
+}
 .ch-wrapper {
   display: flex;
   flex-direction: row;
@@ -25,7 +28,7 @@
   margin: 0;
   padding: 0;
   font-size: 25px;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat-Light;
 }
 @media screen and (max-width: 500px) {
   .ch-wrapper .ch-client-name-container .ch-client-name {
