@@ -23,4 +23,18 @@
             }
         }
     }
+    .cp-profile-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .cp-profile-image-container{
+
+        }
+        .cp-profile-details-container{
+
+        }
+    }
 }
