@@ -8,8 +8,9 @@
         </div>
         <div class="cp-profile-container">
            <div class="cp-profile-image-container">
-               <div class="image-and-name-container">
-                    <h1>Profile image</h1>
+               <div class="cp-image-and-name-container">
+                   {{-- This will be conditionally renderd. If profile is available, an image will be displayed else this icon --}}
+                    <i class="fas fa-user-circle fa-10x"></i>
                     <h6>John Nasimba</h6>
                </div>
                <div class="edit-container">
@@ -18,7 +19,13 @@
                </div>
             </div> 
             <div class="cp-profile-details-container">
-                profile details
+               <h4>PERSONAL DETAILS</h4>
+               <ul class="personal-details-container">
+                   <li class="details-card">
+                       <p class="key">Customer ID</p>
+                       <p class="value">1701001</p>
+                   </li>
+               </ul>
             </div>
         </div>
 

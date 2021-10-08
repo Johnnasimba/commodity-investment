@@ -33,17 +33,16 @@
   justify-content: center;
 }
 .cp-wrapper .cp-profile-container .cp-profile-image-container {
-  width: 500px;
+  width: 600px;
   height: 300px;
   margin-bottom: 20px;
-  background-color: aqua;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 .cp-wrapper .cp-profile-container .cp-profile-details-container {
-  width: 80%;
+  width: 600px;
   height: 600px;
   background-color: #fff;
 }
