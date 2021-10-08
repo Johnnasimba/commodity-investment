@@ -10,12 +10,12 @@
            <div class="cp-profile-image-container">
                <div class="cp-image-and-name-container">
                    {{-- This will be conditionally renderd. If profile is available, an image will be displayed else this icon --}}
-                    <i class="fas fa-user-circle fa-10x"></i>
+                   <i class="fas fa-user-circle"></i>
+                   <div class="edit">
+                        <i class="fas fa-edit"></i>
+                        <a href="/edit">Edit profile picture</a>
+                   </div>
                     <h6>John Nasimba</h6>
-               </div>
-               <div class="edit-container">
-                    <i class="fas fa-pen"></i>
-                    <a href="/edit">Edit profile picture</a>
                </div>
             </div> 
             <div class="cp-profile-details-container">

@@ -36,10 +36,17 @@
   width: 600px;
   height: 300px;
   margin-bottom: 20px;
+  background-color: #4f3cbe;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+.cp-wrapper .cp-profile-container .cp-profile-image-container .cp-image-and-name-container .fa-user-circle {
+  background-color: #fff;
+  border-radius: 50%;
+  color: #006fa1;
+  font-size: 200;
 }
 .cp-wrapper .cp-profile-container .cp-profile-details-container {
   width: 600px;
