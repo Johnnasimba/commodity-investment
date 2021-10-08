@@ -12,6 +12,7 @@
 .cp-wrapper .cp-name-container {
   width: 97%;
   margin: 20px;
+  color: #fff;
   border-bottom: 1px solid #0075a3;
 }
 .cp-wrapper .cp-name-container h3 {
@@ -30,4 +31,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.cp-wrapper .cp-profile-container .cp-profile-image-container {
+  width: 500px;
+  height: 300px;
+  margin-bottom: 20px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.cp-wrapper .cp-profile-container .cp-profile-details-container {
+  width: 80%;
+  height: 600px;
+  background-color: #fff;
 }
