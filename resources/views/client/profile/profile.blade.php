@@ -1,6 +1,8 @@
 @extends('layouts.mainLayout')
 @section('content')
     @include('components.header.client-header')
-   
-    <h1 class="nasimba">Profile page</h1>
+    {{-- All class names for client profile begins with "cp" meaning 'client-profile' --}}
+    <div class="cp-wrapper">
+        
+    </div>
 @endsection
