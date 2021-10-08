@@ -35,12 +35,16 @@
             width: 600px;
             height: 300px;
             margin-bottom: 20px;
-            background-color: rgb(79, 60, 190);
+            // background-color: rgb(79, 60, 190);
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            .cp-image-and-name-container{
+            .image-and-edit{
+                display: flex;
+                flex-direction: row;
+                align-items: flex-end;
+                //@at-root: #000;
                 .fa-user-circle{
                     background-color: #fff;
                     border-radius: 50%;
@@ -48,7 +52,25 @@
                     color: rgba(0, 111, 161, 1);
                     font-size: 200;
                 }
+                .edit-container {
+                    .fa-edit{
+                        font-size: 30;
+                        color: #fff;
+                        margin-right: 0;
+                    }
+                    a{
+                        color: #fff;
+                        text-decoration: underline;
+                    }
+                }
             }
+            .cp-client-name{
+                color: #fff;
+                margin-top: 20px;
+                margin-left: -50px;
+                // background-color: rgb(128, 18, 118);
+            }
+          
         }
         .cp-profile-details-container{
             width: 600px;
