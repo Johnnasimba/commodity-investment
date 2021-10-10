@@ -13,7 +13,7 @@
                     <i class="fas fa-user-circle"></i>    
                     <div class="edit-container">
                         <i class="fas fa-edit"></i>
-                        <a href="/edit">Edit </a>
+                        <a href="/client/profile/edit-profile">Edit </a>
                     </div>
                 </div>
                 <h2 class="cp-client-name">John Nasimba</h2>

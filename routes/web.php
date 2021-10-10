@@ -33,6 +33,9 @@ Route::get('/client', function () {
 Route::get('/client/profile', function () {
     return view('client.profile.profile');
 }); //  Named route(Client name)
+Route::get('/client/profile/edit-profile', function () {
+    return view('client.profile.edit-profile');
+}); //  Named route(Client name)
 
 
 // This route is for testing CRUD operations

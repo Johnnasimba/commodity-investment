@@ -7,6 +7,7 @@
     <link href="/css/client-header.styles.css" rel="stylesheet">
     <link href="/css/client.styles.css" rel="stylesheet">
     <link href="/css/profile.styles.css" rel="stylesheet">
+    <link href="/css/edit-profile.styles.css" rel="stylesheet">
     <link href="/css/price-chat.styles.css" rel="stylesheet">
 
     <!-- Bootstrap -->

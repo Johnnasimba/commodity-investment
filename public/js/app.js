@@ -19307,6 +19307,19 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 /***/ }),
 
+/***/ "./resources/views/components/price-chat/price-chat.styles.scss":
+/*!**********************************************************************!*\
+  !*** ./resources/views/components/price-chat/price-chat.styles.scss ***!
+  \**********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/css/app.css":
 /*!*******************************!*\
   !*** ./resources/css/app.css ***!
@@ -19372,10 +19385,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/views/components/price-chat/price-chat.styles.scss":
-/*!**********************************************************************!*\
-  !*** ./resources/views/components/price-chat/price-chat.styles.scss ***!
-  \**********************************************************************/
+/***/ "./resources/views/client/profile/edit-profile.styles.scss":
+/*!*****************************************************************!*\
+  !*** ./resources/views/client/profile/edit-profile.styles.scss ***!
+  \*****************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -19702,10 +19715,11 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		var installedChunks = {
 /******/ 			"/js/app": 0,
 /******/ 			"css/app": 0,
-/******/ 			"css/price-chat.styles": 0,
+/******/ 			"css/edit-profile.styles": 0,
 /******/ 			"css/profile.styles": 0,
 /******/ 			"css/client.styles": 0,
-/******/ 			"css/client-header.styles": 0
+/******/ 			"css/client-header.styles": 0,
+/******/ 			"css/price-chat.styles": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -19755,13 +19769,14 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/price-chat.styles","css/profile.styles","css/client.styles","css/client-header.styles"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/price-chat.styles","css/profile.styles","css/client.styles","css/client-header.styles"], () => (__webpack_require__("./resources/sass/app.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/price-chat.styles","css/profile.styles","css/client.styles","css/client-header.styles"], () => (__webpack_require__("./resources/views/components/header/client-header.styles.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/price-chat.styles","css/profile.styles","css/client.styles","css/client-header.styles"], () => (__webpack_require__("./resources/views/client/client.styles.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/price-chat.styles","css/profile.styles","css/client.styles","css/client-header.styles"], () => (__webpack_require__("./resources/views/client/profile/profile.styles.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/price-chat.styles","css/profile.styles","css/client.styles","css/client-header.styles"], () => (__webpack_require__("./resources/views/components/price-chat/price-chat.styles.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app","css/price-chat.styles","css/profile.styles","css/client.styles","css/client-header.styles"], () => (__webpack_require__("./resources/css/app.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/edit-profile.styles","css/profile.styles","css/client.styles","css/client-header.styles","css/price-chat.styles"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/edit-profile.styles","css/profile.styles","css/client.styles","css/client-header.styles","css/price-chat.styles"], () => (__webpack_require__("./resources/sass/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/edit-profile.styles","css/profile.styles","css/client.styles","css/client-header.styles","css/price-chat.styles"], () => (__webpack_require__("./resources/views/components/header/client-header.styles.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/edit-profile.styles","css/profile.styles","css/client.styles","css/client-header.styles","css/price-chat.styles"], () => (__webpack_require__("./resources/views/client/client.styles.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/edit-profile.styles","css/profile.styles","css/client.styles","css/client-header.styles","css/price-chat.styles"], () => (__webpack_require__("./resources/views/client/profile/profile.styles.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/edit-profile.styles","css/profile.styles","css/client.styles","css/client-header.styles","css/price-chat.styles"], () => (__webpack_require__("./resources/views/client/profile/edit-profile.styles.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/edit-profile.styles","css/profile.styles","css/client.styles","css/client-header.styles","css/price-chat.styles"], () => (__webpack_require__("./resources/views/components/price-chat/price-chat.styles.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app","css/edit-profile.styles","css/profile.styles","css/client.styles","css/client-header.styles","css/price-chat.styles"], () => (__webpack_require__("./resources/css/app.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
