@@ -5,7 +5,7 @@
 .cp-wrapper {
   background-image: linear-gradient(#142F65, #000);
   width: 100vw;
-  min-height: 100vh;
+  height: 1200px;
   display: flex;
   flex-direction: column;
 }
@@ -82,6 +82,13 @@
   justify-content: flex-start;
   list-style: none;
 }
+.cp-wrapper .cp-profile-container .cp-profile-details-container .personal-details-container .details-card .key {
+  width: 200px;
+}
 .cp-wrapper .cp-profile-container .cp-profile-details-container .personal-details-container .details-card .value {
-  padding-left: 100px;
+  width: 200px;
+  margin-left: 20px;
+}
+.cp-wrapper .cp-profile-container .cp-profile-details-container .personal-details-container .details-card a {
+  margin-left: 40px;
 }
