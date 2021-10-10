@@ -19,7 +19,7 @@
                 <h2 class="cp-client-name">John Nasimba</h2>
             </div> 
             <div class="cp-profile-details-container">
-               <h4>PERSONAL DETAILS</h4>
+               <h4 class="cp-details-title">PERSONAL DETAILS</h4>
                <ul class="personal-details-container">
                    <li class="details-card">
                        <p class="key">Customer ID</p>

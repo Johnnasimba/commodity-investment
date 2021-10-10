@@ -71,3 +71,17 @@
   height: 600px;
   background-color: #fff;
 }
+.cp-wrapper .cp-profile-container .cp-profile-details-container .cp-details-title {
+  margin: 20px;
+}
+.cp-wrapper .cp-profile-container .cp-profile-details-container .personal-details-container .details-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  list-style: none;
+}
+.cp-wrapper .cp-profile-container .cp-profile-details-container .personal-details-container .details-card .value {
+  padding-left: 100px;
+}
