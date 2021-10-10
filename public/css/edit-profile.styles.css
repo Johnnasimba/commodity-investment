@@ -1,1 +1,24 @@
-
+.cp-wrapper .cp-profile-container .cp-profile-image-container form {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.cp-wrapper .cp-profile-container .cp-profile-image-container form input {
+  height: 40px;
+  color: #fff;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.cp-wrapper .cp-profile-container .cp-profile-image-container form button {
+  color: #fff;
+  background-color: #006fa1;
+  height: 40px;
+  width: 100%;
+  border: 1px solid #006fa1;
+  border-radius: 5px;
+}

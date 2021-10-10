@@ -12,8 +12,8 @@
                     <i class="fas fa-user-circle"></i>    
                 </div>
                 <form action="edit">
-                    <input type="file" placeholder="No file selected">
-                    <button>Upload image</button>
+                    <input type="file" accept=".jpg,.jpeg,.png" placeholder="Select image">
+                    <button type="submit">Upload image</button>
                 </form>
             </div> 
           
