@@ -32,11 +32,13 @@ Route::get('/client', function () {
 }); 
 Route::get('/client/profile', function () {
     return view('client.profile.profile');
-}); //  Named route(Client name)
+});
 Route::get('/client/profile/edit-profile', function () {
     return view('client.profile.edit-profile');
-}); //  Named route(Client name)
-
+}); 
+Route::get('/client/profile/edit-details', function () {
+    return view('client.profile.edit-details');
+}); 
 
 // This route is for testing CRUD operations
 Route::resource('clients', ClientController::class);

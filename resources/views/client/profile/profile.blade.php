@@ -56,7 +56,7 @@
                    <li class="details-card">
                        <p class="key">Secondary Phone Number:</p>
                        <p class="value">27-80387591</p>
-                       <a href="/edit">Edit </a>
+                       <a href="/client/profile/edit-details">Edit </a>
                    </li>
                    <li class="details-card">
                        <p class="key">Primary Email:</p>
@@ -65,22 +65,22 @@
                    <li class="details-card">
                        <p class="key">Secondary Email:</p>
                        <p class="value">nasimba4john@gmail.com</p>
-                       <a href="/edit">Edit </a>
+                       <a href="/client/profile/edit-details">Edit </a>
                    </li>
                    <li class="details-card">
                        <p class="key">Estimated Annual Income:</p>
                        <p class="value">Less than 50,000</p>
-                       <a href="/edit">Edit </a>
+                       <a href="/client/profile/edit-details">Edit </a>
                    </li>
                    <li class="details-card">
                        <p class="key">Source of Funds:</p>
                        <p class="value">Savings</p>
-                       <a href="/edit">Edit </a>
+                       <a href="/client/profile/edit-details">Edit </a>
                    </li>
                    <li class="details-card">
                        <p class="key">Occupation:</p>
                        <p class="value">Computer Programmer</p>
-                       <a href="/edit">Edit </a>
+                       <a href="/client/profile/edit-details">Edit </a>
                    </li>
                </ul>
             </div>
