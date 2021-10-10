@@ -68,11 +68,13 @@
 }
 .cp-wrapper .cp-profile-container .cp-profile-details-container {
   width: 600px;
-  height: 600px;
+  height: 750px;
   background-color: #fff;
+  border-radius: 5px;
 }
 .cp-wrapper .cp-profile-container .cp-profile-details-container .cp-details-title {
-  margin: 20px;
+  margin: 40px;
+  margin-top: 20px;
 }
 .cp-wrapper .cp-profile-container .cp-profile-details-container .personal-details-container .details-card {
   display: flex;
@@ -84,6 +86,7 @@
 }
 .cp-wrapper .cp-profile-container .cp-profile-details-container .personal-details-container .details-card .key {
   width: 200px;
+  margin-bottom: 20px;
 }
 .cp-wrapper .cp-profile-container .cp-profile-details-container .personal-details-container .details-card .value {
   width: 200px;

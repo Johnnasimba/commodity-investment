@@ -47,7 +47,7 @@
                    </li>
                    <li class="details-card">
                        <p class="key">Address:</p>
-                       <p class="value">7456 m Mkwayi, Hout bay, Cape Town</p>
+                       <p class="value">7456 M Mkwayi, Hout bay, Cape Town</p>
                    </li>
                    <li class="details-card">
                        <p class="key">Primary Phone Number:</p>

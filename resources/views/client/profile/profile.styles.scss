@@ -69,10 +69,12 @@
         }
         .cp-profile-details-container{
             width: 600px;
-            height: 600px;
+            height: 750px;
             background-color: #fff;
+            border-radius: 5px;
             .cp-details-title{
-                margin: 20px;
+                margin: 40px;
+                margin-top: 20px;
 
             }
             .personal-details-container {
@@ -85,6 +87,7 @@
                     list-style: none;
                     .key{
                         width: 200px;
+                        margin-bottom: 20px;
                         //background-color: #000;
                     }
                     .value{
