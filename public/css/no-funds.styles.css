@@ -17,13 +17,10 @@
   align-items: center;
   justify-content: flex-start;
   color: #fff;
+  margin-top: 20px;
 }
-.cp-wrapper .cp-profile-container .cp-unverified-account-container .description ol {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+.cp-wrapper .cp-profile-container .cp-unverified-account-container .description p {
+  margin: 0px;
 }
 .cp-wrapper .cp-profile-container .cp-unverified-account-container .description .fund-account {
   font-size: 18px;
