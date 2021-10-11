@@ -25,12 +25,12 @@
   align-items: flex-start;
   justify-content: center;
 }
-.cp-wrapper .cp-profile-container .cp-unverified-account-container .description .func-account {
+.cp-wrapper .cp-profile-container .cp-unverified-account-container .description .fund-account {
   font-size: 18px;
-  background-color: #006fa1;
+  background-color: #e0c470;
   padding: 10px 40px;
   color: #fff;
-  border: 2px solid #006fa1;
+  border: 2px solid #e0c470;
   border-radius: 5px;
   margin-top: 20px;
 }

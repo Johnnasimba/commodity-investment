@@ -13,7 +13,7 @@
                     <p>You don't have any money in your account. </p>
                     <p>Fund your account to start Investing </p>
                    
-                    <a href="/client/profile/submit-docs" class="fund-account"> Submit documents</a>
+                    <a href="/client/profile/submit-docs" class="fund-account"> Fund my account</a>
                 </div>
              </div>
           
