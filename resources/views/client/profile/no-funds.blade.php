@@ -2,6 +2,7 @@
 @section('content')
     @include('components.header.client-header')
     {{-- All class names for cdivent profile begins with "cp" meaning 'cdivent-profile' --}}
+    {{-- Most of the css classes are driven from profile page. If you ever run into a problem regarding css try changing class names in both this blade as well as its corresponding sass file --}}
     <div class="cp-wrapper">
         <div class="cp-name-container">
             <h3>Buy Gold</h3>
