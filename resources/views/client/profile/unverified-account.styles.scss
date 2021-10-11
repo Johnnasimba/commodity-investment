@@ -1,9 +1,9 @@
 .cp-wrapper{
     .cp-profile-container{
         .cp-unverified-account-container{
-           width: 600px;
-           height: 500px;
-           background-color: #fff;
+           width: 450px;
+           height: 530px;
+           //background-color: #fff;
            display: flex;
            flex-direction: column;
            align-items: center;
@@ -18,6 +18,7 @@
                flex-direction: column;
                align-items: center;
                justify-content: flex-start;
+               color: #fff;
                ol{
                    width: 100%;
                    display: flex;
@@ -25,9 +26,17 @@
                    align-items: flex-start;
                    justify-content: center;
                }
-               
-           }
 
+               .submit-docs{
+                   font-size: 18px;
+                   background-color: rgba(0, 111, 161, 1);
+                   padding: 10px 40px;
+                   color: #fff;
+                   border: 2px solid rgba(0, 111, 161, 1);
+                   border-radius: 5px;
+                   margin-top: 20px;
+               }
+           }
         }
     }
 }

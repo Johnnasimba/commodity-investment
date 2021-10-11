@@ -17,7 +17,7 @@
                         <li>Bank statement</li>
                     </ol>
                     <a href="http://amaracpaital.com" class="learn-more" target="_blank" rel="noopener noreferrer">learn more</a>
-                    <a href="/client/profile/submit-docs"> Submit documents</a>
+                    <a href="/client/profile/submit-docs" class="submit-docs"> Submit documents</a>
                 </div>
              </div>
           
