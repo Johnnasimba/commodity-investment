@@ -25,15 +25,20 @@
                             <option value="25000-100000">Between R25,000 - R100,000</option>
                             <option value="100000-500000">Between R100,000-R500,000</option>
                             <option value="500000+">Above R500,000</option>
-                          </select>
+                        </select>
                     </div>
                     <div class="form-group">
                         <label for="secondary-number" >Secondary Phone Number</label>
                         <input type="number" id="secondary-number">
                     </div>
                     <div class="form-group">
-                        <label for="secondary-number" >Secondary Phone Number</label>
-                        <input type="number" id="secondary-number">
+                        <label for="income" >Source of income</label>
+                        <select name="annual-income" id="annual-income">
+                            <option value="salary"> Wages and salaries </option>
+                            <option value="self-employment-income">Self-employment income</option>
+                            <option value="governement">Government transfer payments</option>
+                            <option value="investment">Investment income and other income</option>
+                        </select>
                     </div>
                    
                 </form>
