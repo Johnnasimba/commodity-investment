@@ -1,0 +1,36 @@
+.cp-wrapper .cp-profile-container .cp-unverified-account-container {
+  width: 450px;
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+.cp-wrapper .cp-profile-container .cp-unverified-account-container .iconify {
+  font-size: 250;
+  color: #444f63;
+}
+.cp-wrapper .cp-profile-container .cp-unverified-account-container .description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+}
+.cp-wrapper .cp-profile-container .cp-unverified-account-container .description ol {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.cp-wrapper .cp-profile-container .cp-unverified-account-container .description .func-account {
+  font-size: 18px;
+  background-color: #006fa1;
+  padding: 10px 40px;
+  color: #fff;
+  border: 2px solid #006fa1;
+  border-radius: 5px;
+  margin-top: 20px;
+}

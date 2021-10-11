@@ -6,6 +6,7 @@
     "/css/client.styles.css": "/css/client.styles.css",
     "/css/client-header.styles.css": "/css/client-header.styles.css",
     "/css/price-chat.styles.css": "/css/price-chat.styles.css",
+    "/css/no-funds.styles.css": "/css/no-funds.styles.css",
     "/css/unverified-account.styles.css": "/css/unverified-account.styles.css",
     "/css/edit-details.styles.css": "/css/edit-details.styles.css"
 }

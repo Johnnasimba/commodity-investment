@@ -10,6 +10,7 @@
     <link href="/css/edit-profile.styles.css" rel="stylesheet">
     <link href="/css/edit-details.styles.css" rel="stylesheet">
     <link href="/css/unverified-account.styles.css" rel="stylesheet">
+    <link href="/css/no-funds.styles.css" rel="stylesheet">
     <link href="/css/price-chat.styles.css" rel="stylesheet">
     <!-- iconify -->
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
