@@ -1,9 +1,12 @@
 @extends('layouts.mainLayout')
-
 @section('content')
+    @include('components.header.client-header')
+    {{-- All class names for cdivent profile begins with "cp" meaning 'cdivent-profile' --}}
+    <div class="declaimer-wrapper">
+       <div class="declaimer-container">
+           <h2>DECLAIMER</h2>
 
-    <div class="container">
-        <h4 class="danger">DECLAIMER</h4>
+           <a href="/client">skip</a>
+       </div>
     </div>
-    
 @endsection
