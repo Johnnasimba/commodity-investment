@@ -1,0 +1,27 @@
+.cp-wrapper .cp-profile-container .cp-unverified-account-container {
+  width: 600px;
+  height: 500px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+.cp-wrapper .cp-profile-container .cp-unverified-account-container .iconify {
+  font-size: 250;
+  color: #444f63;
+}
+.cp-wrapper .cp-profile-container .cp-unverified-account-container .description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cp-wrapper .cp-profile-container .cp-unverified-account-container .description ol {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}

@@ -9,8 +9,10 @@
     <link href="/css/profile.styles.css" rel="stylesheet">
     <link href="/css/edit-profile.styles.css" rel="stylesheet">
     <link href="/css/edit-details.styles.css" rel="stylesheet">
+    <link href="/css/unverified-account.styles.css" rel="stylesheet">
     <link href="/css/price-chat.styles.css" rel="stylesheet">
-
+    <!-- iconify -->
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
     <!-- Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css" rel="stylesheet">
 

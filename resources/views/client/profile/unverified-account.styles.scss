@@ -1,0 +1,33 @@
+.cp-wrapper{
+    .cp-profile-container{
+        .cp-unverified-account-container{
+           width: 600px;
+           height: 500px;
+           background-color: #fff;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: flex-start;
+           padding: 20px;
+           .iconify{
+               font-size: 250;
+               color: rgba(68, 79, 99, 1);
+           }
+           .description{
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               justify-content: flex-start;
+               ol{
+                   width: 100%;
+                   display: flex;
+                   flex-direction: column;
+                   align-items: flex-start;
+                   justify-content: center;
+               }
+               
+           }
+
+        }
+    }
+}

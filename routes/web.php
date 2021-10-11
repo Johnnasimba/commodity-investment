@@ -39,6 +39,9 @@ Route::get('/client/profile/edit-profile', function () {
 Route::get('/client/profile/edit-details', function () {
     return view('client.profile.edit-details');
 }); 
+Route::get('/client/profile/unverified-account', function () {
+    return view('client.profile.unverified-account');
+}); //  unverified account
 
 // This route is for testing CRUD operations
 Route::resource('clients', ClientController::class);

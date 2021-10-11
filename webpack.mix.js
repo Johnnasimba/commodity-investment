@@ -22,4 +22,5 @@ mix.sass('resources/sass/app.scss', 'public/css')
     .sass('resources/views/client/profile/profile.styles.scss', 'public/css')
     .sass('resources/views/client/profile/edit-profile.styles.scss', 'public/css')
     .sass('resources/views/client/profile/edit-details.styles.scss', 'public/css')
+    .sass('resources/views/client/profile/unverified-account.styles.scss', 'public/css')
     .sass('resources/views/components/price-chat/price-chat.styles.scss', 'public/css');
