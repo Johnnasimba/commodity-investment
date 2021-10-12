@@ -21,7 +21,7 @@
                 bottom: 0;
                 right: 0;
                 cursor: pointer;
-                background-color: black;
+                background-color: rgba(20, 47, 101, 1);
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: 64px 64px;
@@ -36,7 +36,7 @@
                 bottom: 50px;
                 right: 0;
                 cursor: pointer;
-                background-color: black;
+                background-color: rgba(20, 47, 101, 1);
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: 40px 40px;
@@ -48,6 +48,7 @@
                 <iframe width="740" height="415" src="https://www.youtube.com/embed/b2xmKQTLL9E?rel=0&enablejsapi=1" frameborder="0"></iframe>
             </div>
         </div>
+        <a href="/client">skip</a>
         <script>
             "use strict";
             document.addEventListener('DOMContentLoaded', function () {
@@ -90,7 +91,6 @@
                 window.hideYTActivated = true;
             });
         </script>
-           <a href="/client">skip</a>
        </div>
     </div>
 @endsection
