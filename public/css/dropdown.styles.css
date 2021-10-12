@@ -3,26 +3,52 @@
   src: url("/fonts/Montserrat-Light.ttf");
 }
 .ch-wrapper .ch-dropdown-wrapper {
-  display: none;
   position: absolute;
   top: 65;
   right: 10;
   width: 270px;
-  height: 200px;
-  background: #000;
+  height: 350px;
+  background-color: #abadb0;
   color: #fff;
+  overflow: hidden;
 }
 .ch-wrapper .ch-dropdown-wrapper .dropdown-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 15px;
 }
-.ch-wrapper .ch-dropdown-wrapper .dropdown-container a {
-  padding: 10px;
-  color: #fff;
+.ch-wrapper .ch-dropdown-wrapper .dropdown-container .ch-link-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  padding: 5px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  border-radius: 25px 0 0 25px;
+}
+.ch-wrapper .ch-dropdown-wrapper .dropdown-container .ch-link-card .iconify {
+  width: 40px;
+  height: 40px;
+  color: #283048;
+  padding-left: 5px;
+}
+.ch-wrapper .ch-dropdown-wrapper .dropdown-container .ch-link-card a {
+  color: #283048;
   text-decoration: none;
+  font-size: 24;
+  padding-left: 10px;
 }
-.ch-wrapper .ch-dropdown-wrapper .dropdown-container a.hover {
-  background-color: #494848;
+.ch-wrapper .ch-dropdown-wrapper .dropdown-container .ch-link-card.active .iconify {
+  color: #fff;
+}
+.ch-wrapper .ch-dropdown-wrapper .dropdown-container .ch-link-card.active:hover {
+  background: linear-gradient(90deg, #0C2557 9.82%, #0B080F 86.91%);
+  color: #fff;
+}
+.ch-wrapper .ch-dropdown-wrapper .dropdown-container .ch-link-card.active a:hover {
+  color: #fff;
 }

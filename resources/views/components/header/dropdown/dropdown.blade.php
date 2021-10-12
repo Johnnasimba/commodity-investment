@@ -1,23 +1,49 @@
 
 <div class="ch-dropdown-wrapper" id="dropdown">
     <div class="dropdown-container">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+        {{-- Link card class is also used with Jquery for hover effect. Do not change this class without modifying Jquery --}}
+        <div class="ch-link-card">
+            <span class="iconify dropdown-icon" data-icon="ci:dashboard"></span>
+            <a href="client">DASHBOARD</a>
+        </div>
+        <div class="ch-link-card">
+            <span class="iconify dropdown-icon" data-icon="healthicons:ui-user-profile-outline"></span>
+            <a href="client/profile">PROFILE</a>
+        </div>
+        <div class="ch-link-card">
+            <span class="iconify dropdown-icon" data-icon="fa-solid:history"></span>
+            <a href="client/history">HISTORY</a>
+        </div>
+        <div class="ch-link-card">
+            <span class="iconify dropdown-icon" data-icon="et:wallet"></span>
+            <a href="client/wallet">WALLET</a>
+        </div>
+        <div class="ch-link-card">
+            <span class="iconify dropdown-icon" data-icon="ri:logout-circle-line"></span>
+            <a href="client/logout">LOG OUT</a>
+        </div>
     </div>        
 </div>
 <script>
-    $( "#client-name" ).mouseover(function() {
-        $('#dropdown').css('display', 'block');
-    });
-    $( "#client-name" ).mouseleave(function() {
-        $('#dropdown').css('display', 'none');
-    });
-    $( "#dropdown" ).mouseenter(function() {
-        $('#dropdown').css('display', 'block');
-    });
-    $( "#dropdown" ).mouseleave(function() {
-        $('#dropdown').css('display', 'none');
-    });
+    // $( "#client-name" ).mouseover(function() {
+    //     $('#dropdown').css('display', 'block');
+    // });
+    // $( "#client-name" ).mouseleave(function() {
+    //     $('#dropdown').css('display', 'none');
+    // });
+    // $( "#dropdown" ).mouseenter(function() {
+    //     $('#dropdown').css('display', 'block');
+    // });
+    // $( "#dropdown" ).mouseleave(function() {
+    //     $('#dropdown').css('display', 'none');
+    // });
+
+    $('.ch-link-card').mouseenter(function(){
+        $(this).addClass("active")
+        // $('.dropdown-icon').attr('class', 'active')
+    })
+    $(".ch-link-card").mouseleave(function(){
+        $(this).removeClass("active")
+    })
   
 </script>
