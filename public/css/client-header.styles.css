@@ -23,6 +23,7 @@
   justify-content: flex-end;
   width: 300px;
   margin-right: 20px;
+  background-color: aquamarine;
 }
 .ch-wrapper .ch-client-name-container .ch-client-name {
   margin: 0;

@@ -2,17 +2,27 @@
   font-family: Montserrat-Light;
   src: url("/fonts/Montserrat-Light.ttf");
 }
-.ch-wrapper .ch-client-name-container {
-  background-color: aquamarine;
+.ch-wrapper .ch-dropdown-wrapper {
+  display: none;
+  position: absolute;
+  top: 65;
+  right: 10;
+  width: 270px;
+  height: 200px;
+  background: #000;
+  color: #fff;
 }
-.ch-wrapper .ch-client-name-container .ch-client-name {
-  margin: 0;
-  padding: 0;
-  font-size: 25px;
-  font-family: Montserrat-Light;
+.ch-wrapper .ch-dropdown-wrapper .dropdown-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-@media screen and (max-width: 500px) {
-  .ch-wrapper .ch-client-name-container .ch-client-name {
-    display: none;
-  }
+.ch-wrapper .ch-dropdown-wrapper .dropdown-container a {
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.ch-wrapper .ch-dropdown-wrapper .dropdown-container a.hover {
+  background-color: #494848;
 }
