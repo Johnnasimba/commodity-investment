@@ -4,39 +4,39 @@
         {{-- Link card class is also used with Jquery for hover effect. Do not change this class without modifying Jquery --}}
         <div class="ch-link-card">
             <span class="iconify dropdown-icon" data-icon="ci:dashboard"></span>
-            <a href="client">DASHBOARD</a>
+            <a href="{{ url('client') }}">DASHBOARD</a>
         </div>
         <div class="ch-link-card">
             <span class="iconify dropdown-icon" data-icon="healthicons:ui-user-profile-outline"></span>
-            <a href="client/profile">PROFILE</a>
+            <a href="{{ url('client/profile') }}">PROFILE</a>
         </div>
         <div class="ch-link-card">
             <span class="iconify dropdown-icon" data-icon="fa-solid:history"></span>
-            <a href="client/history">HISTORY</a>
+            <a href="{{ url('/client/profile/unverified-account') }}">HISTORY</a>
         </div>
         <div class="ch-link-card">
             <span class="iconify dropdown-icon" data-icon="et:wallet"></span>
-            <a href="client/wallet">WALLET</a>
+            <a href="{{ url('/client/profile/unverified-account') }}">WALLET</a>
         </div>
         <div class="ch-link-card">
             <span class="iconify dropdown-icon" data-icon="ri:logout-circle-line"></span>
-            <a href="client/logout">LOG OUT</a>
+            <a href="{{ url('client') }}">LOG OUT</a>
         </div>
     </div>        
 </div>
 <script>
-    // $( "#client-name" ).mouseover(function() {
-    //     $('#dropdown').css('display', 'block');
-    // });
-    // $( "#client-name" ).mouseleave(function() {
-    //     $('#dropdown').css('display', 'none');
-    // });
-    // $( "#dropdown" ).mouseenter(function() {
-    //     $('#dropdown').css('display', 'block');
-    // });
-    // $( "#dropdown" ).mouseleave(function() {
-    //     $('#dropdown').css('display', 'none');
-    // });
+    $( "#client-name" ).mouseover(function() {
+        $('#dropdown').css('display', 'block');
+    });
+    $( "#client-name" ).mouseleave(function() {
+        $('#dropdown').css('display', 'none');
+    });
+    $( "#dropdown" ).mouseenter(function() {
+        $('#dropdown').css('display', 'block');
+    });
+    $( "#dropdown" ).mouseleave(function() {
+        $('#dropdown').css('display', 'none');
+    });
 
     $('.ch-link-card').mouseenter(function(){
         $(this).addClass("active")

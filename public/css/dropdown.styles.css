@@ -3,6 +3,7 @@
   src: url("/fonts/Montserrat-Light.ttf");
 }
 .ch-wrapper .ch-dropdown-wrapper {
+  display: none;
   position: absolute;
   top: 65;
   right: 10;
