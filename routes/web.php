@@ -50,7 +50,7 @@ Route::get('/client/no-history', function () {
 }); //  No history
 Route::get('/client/history', function () {
     return view('client.history.history');
-}); //  No history
+}); //  history
 
 // This route is for testing CRUD operations
 Route::resource('clients', ClientController::class);

@@ -12,7 +12,7 @@
         </div>
         <div class="ch-link-card">
             <span class="iconify dropdown-icon" data-icon="fa-solid:history"></span>
-            <a href="{{ url('/client/profile/unverified-account') }}">HISTORY</a>
+            <a href="{{ url('/client/no-history') }}">HISTORY</a>
         </div>
         <div class="ch-link-card">
             <span class="iconify dropdown-icon" data-icon="et:wallet"></span>
