@@ -33,6 +33,9 @@ Route::get('/client', function () {
 Route::get('/client/profile', function () {
     return view('client.profile.profile');
 });
+Route::get('/client/profile/upload-docs', function () {
+    return view('client.profile.upload-docs.upload-docs');
+}); 
 Route::get('/client/profile/edit-profile', function () {
     return view('client.profile.edit-profile');
 }); 
