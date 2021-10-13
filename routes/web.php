@@ -42,9 +42,15 @@ Route::get('/client/profile/edit-details', function () {
 Route::get('/client/profile/unverified-account', function () {
     return view('client.profile.unverified-account');
 }); //  unverified account
-Route::get('/client/profile/no-funds', function () {
+Route::get('/client/no-funds', function () {
     return view('client.profile.no-funds');
 }); //  Verified account with no funds
+Route::get('/client/no-history', function () {
+    return view('client.history.no-history');
+}); //  No history
+Route::get('/client/history', function () {
+    return view('client.history.history');
+}); //  No history
 
 // This route is for testing CRUD operations
 Route::resource('clients', ClientController::class);
