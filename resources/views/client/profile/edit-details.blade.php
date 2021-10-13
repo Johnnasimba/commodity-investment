@@ -4,7 +4,7 @@
     {{-- All class names for cdivent profile begins with "cp" meaning 'cdivent-profile' --}}
     <div class="cp-wrapper">
         <div class="cp-name-container">
-            <h3>Dashboard</h3>
+            <h3>Edit details</h3>
         </div>
         <div class="cp-profile-container">
             <div class="cp-edit-details-container">
