@@ -9,6 +9,7 @@
     <link href="/css/declaimer.styles.css" rel="stylesheet">
     <link href="/css/client.styles.css" rel="stylesheet">
     <link href="/css/profile.styles.css" rel="stylesheet">
+    <link href="/css/history.styles.css" rel="stylesheet">
     <link href="/css/edit-profile.styles.css" rel="stylesheet">
     <link href="/css/edit-details.styles.css" rel="stylesheet">
     <link href="/css/unverified-account.styles.css" rel="stylesheet">

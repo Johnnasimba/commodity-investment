@@ -7,7 +7,7 @@
             <h3>History</h3>
         </div>
         <div class="cp-profile-container">
-            <div class="cp-edit-details-container">
+            <div class="cp-history-container">
                 <h4 class="cp-edit-title">Your history will appear here</h4>
         
              </div>
