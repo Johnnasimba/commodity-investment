@@ -8,7 +8,7 @@
                 <h3>Dashboard</h3>
             </div>
             <div class="clp-main-deposit-button">
-                <a href="http://"> DEPOSIT </a>
+                <a href="{{ url('client/profile/unverified-account') }}"> DEPOSIT </a>
             </div>
 
         </div>
@@ -49,12 +49,13 @@
                     <div class="clp-gold-price-container">
                         <h4 class="clp-gold-price">R25,081.73/g</h4>
                         <p>GOLD(XAU/ZAR)</p>
-                        <button>BUY</button>
+                        <a href="{{ url('client/no-funds') }}">BUY</a>
+
                     </div>
                     <div class="clp-silver-price-container">
                         <h4>R330.73/g</h4>
                         <p>SILVER(XAG/ZAR)</p>
-                        <button>BUY</button>
+                        <a href="{{ url('client/no-funds') }}">BUY</a>
                     </div>
                 </div>
                 <h3 class="clp-client-status">YOUR PERSONAL STATUS</h3>

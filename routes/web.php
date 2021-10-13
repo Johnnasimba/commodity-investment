@@ -44,7 +44,7 @@ Route::get('/client/profile/unverified-account', function () {
 }); //  unverified account
 Route::get('/client/no-funds', function () {
     return view('client.profile.no-funds');
-}); //  Verified account with no funds
+}); //   no funds
 Route::get('/client/no-history', function () {
     return view('client.history.no-history');
 }); //  No history
