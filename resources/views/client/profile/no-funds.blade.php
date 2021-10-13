@@ -5,11 +5,11 @@
     {{-- Most of the css classes are driven from profile page. If you ever run into a problem regarding css try changing class names in both this blade as well as its corresponding sass file --}}
     <div class="cp-wrapper">
         <div class="cp-name-container">
-            <h3>Buy Gold</h3>
+            <h3>No funds available</h3>
         </div>
         <div class="cp-profile-container">
             <div class="cp-unverified-account-container">
-                <span class="iconify" data-icon="fa-solid:history"></span>
+                <span class="iconify" data-icon="fluent:money-off-20-regular"></span>
                 <div class="description">
                     <p>You don't have any money in your account. </p>
                     <p>Fund your account to start Investing </p>
