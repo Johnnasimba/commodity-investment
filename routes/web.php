@@ -55,8 +55,7 @@ Route::get('/client/history', function () {
     return view('client.history.history');
 }); //  history
 
-// This route is for testing CRUD operations
-Route::resource('clients', ClientController::class);
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
