@@ -48,7 +48,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/client/profile/edit-detai
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/client/profile/unverified-account', function () {
     return view('client.profile.unverified-account');
-})-name('account-status'); //  unverified account 
+})->name('account-status'); //  unverified account 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/client/no-funds', function () {
     return view('client.profile.no-funds');
