@@ -15,12 +15,26 @@
             <a href="{{ url('/client/no-history') }}">HISTORY</a>
         </div>
         <div class="ch-link-card">
+            <span class="iconify" data-icon="fa-solid:file-upload"></span>
+            <a href="{{ url('/client/profile/upload-docs') }}">UPLOAD DOCS</a>
+        </div>
+        <div class="ch-link-card">
             <span class="iconify dropdown-icon" data-icon="et:wallet"></span>
             <a href="{{ url('/client/profile/unverified-account') }}">WALLET</a>
         </div>
         <div class="ch-link-card">
             <span class="iconify dropdown-icon" data-icon="ri:logout-circle-line"></span>
-            <a href="{{ url('client') }}">LOG OUT</a>
+            <a href="{{ url('client') }}">
+                <form method="POST" action="{{ route('logout') }}">
+                    @csrf
+    
+                    <x-jet-responsive-nav-link href="{{ route('logout') }}"
+                                   onclick="event.preventDefault();
+                                    this.closest('form').submit();">
+                        {{ __('LOG OUT') }}
+                    </x-jet-responsive-nav-link>
+                </form>
+            </a>
         </div>
     </div>        
 </div>

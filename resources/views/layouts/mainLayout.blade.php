@@ -5,6 +5,7 @@
     <title>Amara Capital</title>
     <link href="/css/app.css" rel="stylesheet">
     <link href="/css/client-header.styles.css" rel="stylesheet">
+    <link href="/css/guest-header.styles.css" rel="stylesheet">
     <link href="/css/dropdown.styles.css" rel="stylesheet">
     <link href="/css/declaimer.styles.css" rel="stylesheet">
     <link href="/css/client.styles.css" rel="stylesheet">

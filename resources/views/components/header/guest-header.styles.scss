@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Montserrat-Light;
+    src: url("/fonts/Montserrat-Light.ttf");
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url("/fonts/Montserrat-Bold.ttf");
+}
+.gh-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100vw;
+    border: 1px solid black;
+
+    .ch-amara-capital-logo {
+        margin: auto 0;
+        margin-left: 20px;
+        background-color: rgb(94, 54, 6);
+    }
+    .gh-navlinks-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        width: 70vw;
+        margin-right: 20px;
+        // background-color: aquamarine;
+        a{
+            color:rgba(20, 47, 101, 1);
+            font-size: 18;
+            font-family:  Montserrat-Bold;
+            margin-left: 20px;
+            &:last-child{
+                color: #fff;
+                background-color: rgba(20, 47, 101, 1);
+                border-radius: 5px;
+                padding: 10px 20px;
+            }
+        }
+    }
+
+}

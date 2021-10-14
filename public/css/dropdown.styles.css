@@ -8,7 +8,7 @@
   top: 65;
   right: 10;
   width: 270px;
-  height: 350px;
+  height: 450px;
   background-color: #abadb0;
   color: #fff;
   overflow: hidden;
@@ -30,6 +30,13 @@
   margin-left: 20px;
   margin-bottom: 15px;
   border-radius: 25px 0 0 25px;
+}
+.ch-wrapper .ch-dropdown-wrapper .dropdown-container .ch-link-card:last-child a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
 }
 .ch-wrapper .ch-dropdown-wrapper .dropdown-container .ch-link-card .iconify {
   width: 40px;

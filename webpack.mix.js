@@ -13,11 +13,16 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
-        //
+        require('postcss-import'),
+        require('tailwindcss'),
     ]);
 
-mix.sass('resources/sass/app.scss', 'public/css')
-    .sass('resources/views/components/header/client-header.styles.scss', 'public/css')
+if (mix.inProduction()) {
+    mix.version();
+}
+
+mix.sass('resources/views/components/header/client-header.styles.scss', 'public/css')
+    .sass('resources/views/components/header/guest-header.styles.scss', 'public/css')
     .sass('resources/views/components/header/dropdown/dropdown.styles.scss', 'public/css')
     .sass('resources/views/declaimer/declaimer.styles.scss', 'public/css')
     .sass('resources/views/client/client.styles.scss', 'public/css')

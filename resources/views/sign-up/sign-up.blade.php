@@ -1,10 +1,6 @@
-
-@extends('layouts.app')
-
+@extends('layouts.mainLayout')
 @section('content')
-
-<div class="container">
-    <h4 class="fail">Sign Up</h4>
-</div>
-
+    @include('components.header.guest-header')
+   
+    <h1>Sign up page</h1>
 @endsection
