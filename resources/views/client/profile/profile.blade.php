@@ -16,7 +16,7 @@
                         <a href="/client/profile/edit-profile">Edit </a>
                     </div>
                 </div>
-                <h2 class="cp-client-name">John Nasimba</h2>
+                <h2 class="cp-client-name">{{ Auth::user()->name }}</h2>
             </div> 
             <div class="cp-profile-details-container">
                <h4 class="cp-details-title">PERSONAL DETAILS</h4>
