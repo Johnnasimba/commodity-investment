@@ -1,4 +1,5 @@
 <x-guest-layout>
+    @include('components.header.guest-header')
     <x-jet-authentication-card>
         <x-slot name="logo">
             <x-jet-application-logo class="block h-12 w-auto" />

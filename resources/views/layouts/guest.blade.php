@@ -9,6 +9,8 @@
 
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+        <link href="/css/guest-header.styles.css" rel="stylesheet">
+
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
@@ -20,7 +22,6 @@
     </head>
     <body>
         <div class="font-sans text-gray-900 antialiased" >
-            @include('components.header.client-header')
             {{ $slot }}
         </div>
     </body>
