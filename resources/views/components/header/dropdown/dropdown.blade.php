@@ -24,7 +24,17 @@
         </div>
         <div class="ch-link-card">
             <span class="iconify dropdown-icon" data-icon="ri:logout-circle-line"></span>
-            <a href="{{ url('client') }}">LOG OUT</a>
+            <a href="{{ url('client') }}">
+                <form method="POST" action="{{ route('logout') }}">
+                    @csrf
+    
+                    <x-jet-responsive-nav-link href="{{ route('logout') }}"
+                                   onclick="event.preventDefault();
+                                    this.closest('form').submit();">
+                        {{ __('LOG OUT') }}
+                    </x-jet-responsive-nav-link>
+                </form>
+            </a>
         </div>
     </div>        
 </div>

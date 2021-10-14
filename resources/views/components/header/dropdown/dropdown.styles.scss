@@ -19,6 +19,7 @@
             align-items: center;
             justify-content: center;
             padding-top: 15px;
+        
             .ch-link-card{
                 display: flex;
                 flex-direction: row;
@@ -30,11 +31,21 @@
                 margin-left: 20px;
                 margin-bottom: 15px;
                 border-radius: 25px 0 0  25px;
+                &:last-child{
+                    a {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top: 8px;
+                    }
+                }
                 .iconify{
                     width: 40px;
                     height: 40px;
                     color:#283048;
                     padding-left: 5px;
+                    
                     
                 }
               
@@ -43,6 +54,7 @@
                     text-decoration: none;
                     font-size: 24;
                     padding-left: 10px;
+
                 }
                 &.active{
                     .iconify{
