@@ -48,7 +48,7 @@
                 <iframe width="740" height="415" src="https://www.youtube.com/embed/b2xmKQTLL9E?rel=0&enablejsapi=1" frameborder="0"></iframe>
             </div>
         </div>
-        <a href="/client">skip</a>
+        <a href="/client" style="margin-top: 20px; color: #fff; text-decoration: underline;">Proceed to dashboard</a>
         <script>
             "use strict";
             document.addEventListener('DOMContentLoaded', function () {
