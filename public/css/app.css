@@ -1,7 +1,5 @@
 /*! tailwindcss v2.2.16 | MIT License | https://tailwindcss.com *//*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
-<<<<<<< HEAD
-=======
 /*
 Document
 ========
@@ -1216,12 +1214,6 @@ select {
 .-mt-px {
 	margin-top: -1px;
 }
-.ml-8 {
-	margin-left: 2rem;
-}
-.ml-5 {
-	margin-left: 1.25rem;
-}
 .block {
 	display: block;
 }
@@ -2305,4 +2297,3 @@ select {
 	}
 }
 
->>>>>>> auth

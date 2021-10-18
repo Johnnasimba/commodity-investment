@@ -22647,8 +22647,6 @@ __webpack_require__.r(__webpack_exports__);
 /*!*********************************************************************!*\
   !*** ./resources/views/components/header/client-header.styles.scss ***!
   \*********************************************************************/
-<<<<<<< HEAD
-=======
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -22662,7 +22660,6 @@ __webpack_require__.r(__webpack_exports__);
 /*!********************************************************************!*\
   !*** ./resources/views/components/header/guest-header.styles.scss ***!
   \********************************************************************/
->>>>>>> auth
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -23101,21 +23098,6 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-<<<<<<< HEAD
-/******/ 	__webpack_require__.O(undefined, ["css/client.styles","css/declaimer.styles","css/dropdown.styles","css/client-header.styles","css/app","css/price-chat.styles","css/no-funds.styles","css/unverified-account.styles","css/edit-details.styles","css/edit-profile.styles","css/profile.styles","css/history.styles"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/client.styles","css/declaimer.styles","css/dropdown.styles","css/client-header.styles","css/app","css/price-chat.styles","css/no-funds.styles","css/unverified-account.styles","css/edit-details.styles","css/edit-profile.styles","css/profile.styles","css/history.styles"], () => (__webpack_require__("./resources/views/components/header/client-header.styles.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/client.styles","css/declaimer.styles","css/dropdown.styles","css/client-header.styles","css/app","css/price-chat.styles","css/no-funds.styles","css/unverified-account.styles","css/edit-details.styles","css/edit-profile.styles","css/profile.styles","css/history.styles"], () => (__webpack_require__("./resources/views/components/header/dropdown/dropdown.styles.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/client.styles","css/declaimer.styles","css/dropdown.styles","css/client-header.styles","css/app","css/price-chat.styles","css/no-funds.styles","css/unverified-account.styles","css/edit-details.styles","css/edit-profile.styles","css/profile.styles","css/history.styles"], () => (__webpack_require__("./resources/views/declaimer/declaimer.styles.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/client.styles","css/declaimer.styles","css/dropdown.styles","css/client-header.styles","css/app","css/price-chat.styles","css/no-funds.styles","css/unverified-account.styles","css/edit-details.styles","css/edit-profile.styles","css/profile.styles","css/history.styles"], () => (__webpack_require__("./resources/views/client/client.styles.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/client.styles","css/declaimer.styles","css/dropdown.styles","css/client-header.styles","css/app","css/price-chat.styles","css/no-funds.styles","css/unverified-account.styles","css/edit-details.styles","css/edit-profile.styles","css/profile.styles","css/history.styles"], () => (__webpack_require__("./resources/views/client/history/history.styles.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/client.styles","css/declaimer.styles","css/dropdown.styles","css/client-header.styles","css/app","css/price-chat.styles","css/no-funds.styles","css/unverified-account.styles","css/edit-details.styles","css/edit-profile.styles","css/profile.styles","css/history.styles"], () => (__webpack_require__("./resources/views/client/profile/profile.styles.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/client.styles","css/declaimer.styles","css/dropdown.styles","css/client-header.styles","css/app","css/price-chat.styles","css/no-funds.styles","css/unverified-account.styles","css/edit-details.styles","css/edit-profile.styles","css/profile.styles","css/history.styles"], () => (__webpack_require__("./resources/views/client/profile/edit-profile.styles.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/client.styles","css/declaimer.styles","css/dropdown.styles","css/client-header.styles","css/app","css/price-chat.styles","css/no-funds.styles","css/unverified-account.styles","css/edit-details.styles","css/edit-profile.styles","css/profile.styles","css/history.styles"], () => (__webpack_require__("./resources/views/client/profile/edit-details.styles.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/client.styles","css/declaimer.styles","css/dropdown.styles","css/client-header.styles","css/app","css/price-chat.styles","css/no-funds.styles","css/unverified-account.styles","css/edit-details.styles","css/edit-profile.styles","css/profile.styles","css/history.styles"], () => (__webpack_require__("./resources/views/client/profile/unverified-account.styles.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/client.styles","css/declaimer.styles","css/dropdown.styles","css/client-header.styles","css/app","css/price-chat.styles","css/no-funds.styles","css/unverified-account.styles","css/edit-details.styles","css/edit-profile.styles","css/profile.styles","css/history.styles"], () => (__webpack_require__("./resources/views/client/profile/no-funds.styles.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/client.styles","css/declaimer.styles","css/dropdown.styles","css/client-header.styles","css/app","css/price-chat.styles","css/no-funds.styles","css/unverified-account.styles","css/edit-details.styles","css/edit-profile.styles","css/profile.styles","css/history.styles"], () => (__webpack_require__("./resources/views/components/price-chat/price-chat.styles.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/client.styles","css/declaimer.styles","css/dropdown.styles","css/client-header.styles","css/app","css/price-chat.styles","css/no-funds.styles","css/unverified-account.styles","css/edit-details.styles","css/edit-profile.styles","css/profile.styles","css/history.styles"], () => (__webpack_require__("./resources/css/app.css")))
-=======
 /******/ 	__webpack_require__.O(undefined, ["css/client.styles","css/declaimer.styles","css/dropdown.styles","css/guest-header.styles","css/client-header.styles","css/app","css/price-chat.styles","css/no-funds.styles","css/unverified-account.styles","css/edit-details.styles","css/edit-profile.styles","css/profile.styles","css/history.styles"], () => (__webpack_require__("./resources/js/app.js")))
 /******/ 	__webpack_require__.O(undefined, ["css/client.styles","css/declaimer.styles","css/dropdown.styles","css/guest-header.styles","css/client-header.styles","css/app","css/price-chat.styles","css/no-funds.styles","css/unverified-account.styles","css/edit-details.styles","css/edit-profile.styles","css/profile.styles","css/history.styles"], () => (__webpack_require__("./resources/views/components/header/client-header.styles.scss")))
 /******/ 	__webpack_require__.O(undefined, ["css/client.styles","css/declaimer.styles","css/dropdown.styles","css/guest-header.styles","css/client-header.styles","css/app","css/price-chat.styles","css/no-funds.styles","css/unverified-account.styles","css/edit-details.styles","css/edit-profile.styles","css/profile.styles","css/history.styles"], () => (__webpack_require__("./resources/views/components/header/guest-header.styles.scss")))
@@ -23130,7 +23112,6 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 	__webpack_require__.O(undefined, ["css/client.styles","css/declaimer.styles","css/dropdown.styles","css/guest-header.styles","css/client-header.styles","css/app","css/price-chat.styles","css/no-funds.styles","css/unverified-account.styles","css/edit-details.styles","css/edit-profile.styles","css/profile.styles","css/history.styles"], () => (__webpack_require__("./resources/views/client/profile/no-funds.styles.scss")))
 /******/ 	__webpack_require__.O(undefined, ["css/client.styles","css/declaimer.styles","css/dropdown.styles","css/guest-header.styles","css/client-header.styles","css/app","css/price-chat.styles","css/no-funds.styles","css/unverified-account.styles","css/edit-details.styles","css/edit-profile.styles","css/profile.styles","css/history.styles"], () => (__webpack_require__("./resources/views/components/price-chat/price-chat.styles.scss")))
 /******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/client.styles","css/declaimer.styles","css/dropdown.styles","css/guest-header.styles","css/client-header.styles","css/app","css/price-chat.styles","css/no-funds.styles","css/unverified-account.styles","css/edit-details.styles","css/edit-profile.styles","css/profile.styles","css/history.styles"], () => (__webpack_require__("./resources/css/app.css")))
->>>>>>> auth
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
