@@ -23,6 +23,10 @@
             <a href="{{ url('/client/profile/unverified-account') }}">WALLET</a>
         </div>
         <div class="ch-link-card">
+            <span class="iconify" data-icon="carbon:user-settings"></span>
+            <a href="{{ url('/user/profile') }}">ACCOUNT SETTINGS</a>
+        </div>
+        <div class="ch-link-card">
             <span class="iconify dropdown-icon" data-icon="ri:logout-circle-line"></span>
             <a href="{{ url('client') }}">
                 <form method="POST" action="{{ route('logout') }}">
