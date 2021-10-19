@@ -8,7 +8,7 @@
   top: 65;
   right: 10;
   width: 270px;
-  height: 450px;
+  height: 470px;
   background-color: #abadb0;
   color: #fff;
   overflow: hidden;
@@ -23,7 +23,10 @@
 .ch-wrapper .ch-dropdown-wrapper .dropdown-container .ch-link-card {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
+  justify-content: flex-start;
+  color: #283048;
+  text-decoration: none;
   height: 50px;
   width: 100%;
   padding: 5px;
@@ -31,23 +34,28 @@
   margin-bottom: 15px;
   border-radius: 25px 0 0 25px;
 }
-.ch-wrapper .ch-dropdown-wrapper .dropdown-container .ch-link-card:last-child a {
+.ch-wrapper .ch-dropdown-wrapper .dropdown-container .ch-link-card:last-child {
+  margin-top: auto;
+}
+.ch-wrapper .ch-dropdown-wrapper .dropdown-container .ch-link-card:last-child .ch-title {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   margin-top: 8px;
+  margin-bottom: 10px;
+  color: #283048;
 }
 .ch-wrapper .ch-dropdown-wrapper .dropdown-container .ch-link-card .iconify {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   color: #283048;
   padding-left: 5px;
 }
-.ch-wrapper .ch-dropdown-wrapper .dropdown-container .ch-link-card a {
+.ch-wrapper .ch-dropdown-wrapper .dropdown-container .ch-link-card .ch-title {
   color: #283048;
   text-decoration: none;
-  font-size: 24;
+  font-size: 18px;
   padding-left: 10px;
 }
 .ch-wrapper .ch-dropdown-wrapper .dropdown-container .ch-link-card.active .iconify {
@@ -57,6 +65,6 @@
   background: linear-gradient(90deg, #0C2557 9.82%, #0B080F 86.91%);
   color: #fff;
 }
-.ch-wrapper .ch-dropdown-wrapper .dropdown-container .ch-link-card.active a:hover {
+.ch-wrapper .ch-dropdown-wrapper .dropdown-container .ch-link-card.active .ch-title {
   color: #fff;
 }
