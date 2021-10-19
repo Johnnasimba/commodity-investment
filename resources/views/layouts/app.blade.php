@@ -54,7 +54,7 @@
         
 
         <div style="background-image: linear-gradient(#142F65, #000);">
-            <div class="clp-page-name-container" align=center style="display:block;margin-left: 20px;padding-top:20px;text-decoration:underline;">
+            <div class="clp-page-name-container" align=right style="display:block;margin-left: 20px;padding-right:20px;padding-top:20px;text-decoration:underline;">
                 <a href="{{ url('/client') }}" class="clp-name-container" style="color: #fff; margin-top: 20px;">
                     <h3>Return to dashboard</h3>
                 </a>
