@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ClientController;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\DeclaimerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,50 +20,55 @@ Route::get('/', function () {
     return redirect(route('register'));
 });
 
-Route::get('/signup', function () {
-    return view('sign-up.sign-up');
-}); // Will be deleted. Just used to testing purposes
 
-Route::get('/declaimer', function () {
-    return view('declaimer.declaimer');
-})->name('declaimer'); //   Named route(client name followed by declaimer)
+
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/client', function () {
     return view('client.client');
-})->name('dashboard'); //   dashboard
+})->name('client'); //   dashboard
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/client/profile', function () {
-    return view('client.profile.profile');
-})->name('profile');  //    account profile
+// DECLAIMER
+Route::middleware(['auth:sanctum', 'verified'])->get('declaimer', [DeclaimerController::class, 'index'] )->name('declaimer');  //    account profile
+
+// PROFILE ROUTES
+Route::middleware(['auth:sanctum', 'verified'])->get('profile', [ProfileController::class, 'index'] );  //    account profile
+Route::middleware(['auth:sanctum', 'verified'])->get('profile/details', [ProfileController::class, 'create'] )->name('upload-details');  //    create account details
+Route::middleware(['auth:sanctum', 'verified'])->post('profile/details', [ProfileController::class, 'store'] )->name('details');  //    create account details
+
+
+
+
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/client/profile/upload-docs', function () {
     return view('client.profile.upload-docs.upload-docs');
-})->name('upload-documents'); //    upload documents
+}); //    upload documents
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/client/profile/edit-profile', function () {
     return view('client.profile.edit-profile');
-})->name('edit-profile'); 
+}); 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/client/profile/edit-details', function () {
     return view('client.profile.edit-details');
-})->name('edit-details'); //e   edit details
+}); //e  edit details
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/client/profile/unverified-account', function () {
     return view('client.profile.unverified-account');
-})->name('account-status'); //  unverified account 
+}); //  unverified account 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/client/no-funds', function () {
     return view('client.profile.no-funds');
-})->name('account-balance'); //   no funds 
+}); //   no funds 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('client/no-history', function () {
     return view('client.history.no-history');
-})->name('history'); //  No history 
+}); //  No history 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/client/history', function () {
     return view('client.history.history');
-})->name('history'); //  history 
+}); //  history 
 
+// // Profile route
+// Route::resource('profile', ProfileController::class);
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

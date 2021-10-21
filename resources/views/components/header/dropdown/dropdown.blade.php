@@ -6,7 +6,7 @@
             <span class="iconify dropdown-icon" data-icon="ci:dashboard"></span>
             <h3 class="ch-title">DASHBOARD</h3>
         </a>
-        <a href="{{ url('client/profile') }}" class="ch-link-card">
+        <a href="{{ url('/profile') }}" class="ch-link-card">
             <span class="iconify dropdown-icon" data-icon="healthicons:ui-user-profile-outline"></span>
             <h3 class="ch-title">PROFILE</h3>
         </a>

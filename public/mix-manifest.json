@@ -1,7 +1,7 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/client.styles.css": "/css/client.styles.css",
     "/css/declaimer.styles.css": "/css/declaimer.styles.css",
+    "/css/upload-details.styles.css": "/css/upload-details.styles.css",
     "/css/dropdown.styles.css": "/css/dropdown.styles.css",
     "/css/guest-header.styles.css": "/css/guest-header.styles.css",
     "/css/client-header.styles.css": "/css/client-header.styles.css",
@@ -12,5 +12,6 @@
     "/css/edit-details.styles.css": "/css/edit-details.styles.css",
     "/css/edit-profile.styles.css": "/css/edit-profile.styles.css",
     "/css/profile.styles.css": "/css/profile.styles.css",
-    "/css/history.styles.css": "/css/history.styles.css"
+    "/css/history.styles.css": "/css/history.styles.css",
+    "/css/client.styles.css": "/css/client.styles.css"
 }

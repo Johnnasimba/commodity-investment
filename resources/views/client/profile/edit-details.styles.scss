@@ -1,8 +1,9 @@
 .cp-wrapper{
     .cp-profile-container{
+        margin-top: 20px;
         .cp-edit-details-container{
-            width: 500px;
-            height: 450px;
+            width: 650px;
+            height: 750px;
             background-color: #fff;
             border-radius: 5px;
             .cp-edit-title{
@@ -16,20 +17,33 @@
                     display: flex;
                     flex-direction: row;
                     flex-wrap: nowrap;
-                    align-items: flex-start;
-                    justify-content: flex-start;
+                    align-items: center;
+                    justify-content: space-between;
                     list-style: none;
+                    margin-bottom: 20px;
+                    .label-with-span{
+                        display: flex;
+                        align-items: flex-end;
+                        justify-content: flex-start;
+                        padding-bottom: 0;
+                        span{
+                            margin-top: -15px;
+                            padding-top: 0;
+                            padding-left: 5px;
+                        }
+                    }
+                    
                     label{
-                        width: 200px;
+                        // width: 200px;
                         margin-bottom: 20px;
                         //background-color: #000;
                     }
                     input,
                     select{
-                        width: 200px;
+                        width: 350px;
                         //background-color: #080;
                         margin-left: 20px;
-                        height: 30px;
+                        height: 40px;
                         padding-left: 10px;
                     }
                     a{
@@ -39,7 +53,7 @@
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        button{
+                        input{
                             width: 200px;
                             height: 50px;
                             background-color: rgba(0, 111, 161, 1);

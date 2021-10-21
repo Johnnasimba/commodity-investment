@@ -1,6 +1,9 @@
+.cp-wrapper .cp-profile-container {
+  margin-top: 20px;
+}
 .cp-wrapper .cp-profile-container .cp-edit-details-container {
-  width: 500px;
-  height: 450px;
+  width: 650px;
+  height: 750px;
   background-color: #fff;
   border-radius: 5px;
 }
@@ -16,19 +19,30 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
   list-style: none;
+  margin-bottom: 20px;
+}
+.cp-wrapper .cp-profile-container .cp-edit-details-container form .form-group .label-with-span {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding-bottom: 0;
+}
+.cp-wrapper .cp-profile-container .cp-edit-details-container form .form-group .label-with-span span {
+  margin-top: -15px;
+  padding-top: 0;
+  padding-left: 5px;
 }
 .cp-wrapper .cp-profile-container .cp-edit-details-container form .form-group label {
-  width: 200px;
   margin-bottom: 20px;
 }
 .cp-wrapper .cp-profile-container .cp-edit-details-container form .form-group input,
 .cp-wrapper .cp-profile-container .cp-edit-details-container form .form-group select {
-  width: 200px;
+  width: 350px;
   margin-left: 20px;
-  height: 30px;
+  height: 40px;
   padding-left: 10px;
 }
 .cp-wrapper .cp-profile-container .cp-edit-details-container form .form-group a {
@@ -39,7 +53,7 @@
   align-items: center;
   justify-content: center;
 }
-.cp-wrapper .cp-profile-container .cp-edit-details-container form .form-group:last-child button {
+.cp-wrapper .cp-profile-container .cp-edit-details-container form .form-group:last-child input {
   width: 200px;
   height: 50px;
   background-color: #006fa1;
