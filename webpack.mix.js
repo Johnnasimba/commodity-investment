@@ -25,6 +25,7 @@ mix.sass('resources/views/components/header/client-header.styles.scss', 'public/
     .sass('resources/views/components/header/guest-header.styles.scss', 'public/css')
     .sass('resources/views/components/header/dropdown/dropdown.styles.scss', 'public/css')
     .sass('resources/views/client/profile/upload-details/upload-details.styles.scss', 'public/css')
+    .sass('resources/views/client/profile/upload-docs/upload-docs.styles.scss', 'public/css')
     .sass('resources/views/declaimer/declaimer.styles.scss', 'public/css')
     .sass('resources/views/client/client.styles.scss', 'public/css')
     .sass('resources/views/client/history/history.styles.scss', 'public/css')

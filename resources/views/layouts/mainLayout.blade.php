@@ -8,6 +8,7 @@
     <link href="/css/guest-header.styles.css" rel="stylesheet">
     <link href="/css/dropdown.styles.css" rel="stylesheet">
     <link href="/css/upload-details.styles.css" rel="stylesheet">
+    <link href="/css/upload-docs.styles.css" rel="stylesheet">
     <link href="/css/declaimer.styles.css" rel="stylesheet">
     <link href="/css/client.styles.css" rel="stylesheet">
     <link href="/css/profile.styles.css" rel="stylesheet">
