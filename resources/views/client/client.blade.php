@@ -20,21 +20,21 @@
                 </div>
 
                 <div class="clp-price-card">
-                    <h3 class="price"> 0.0092  </h3>
-                    <p class="price-name"> PRICE ADJUSTMENT FACTOR  </p>
+                    <h3 class="price"> 0.00  </h3>
+                    <p class="price-name">AVAILABLE BALANCE  </p>
                 </div>
                 <div class="clp-price-card">
-                    <h3 class="price"> 0.93004  </h3>
-                    <p class="price-name"> EXCHANGE RATE ADJUSTMENT FACTOR  </p>
+                    <h3 class="price"> 201.05 </h3>
+                    <p class="price-name">POOL UNITS  </p>
                 </div>
                 
                 <div class="clp-price-card">
-                    <h3 class="price"> 2%  </h3>
-                    <p class="price-name"> REFINERY MARGIN  </p>
+                    <h3 class="price"> R0.00 </h3>
+                    <p class="price-name"> PROFITS  </p>
                 </div>
                 <div class="clp-price-card">
-                    <h3 class="price"> 15%  </h3>
-                    <p class="price-name"> AMARA CAPITAL MARGIN  </p>
+                    <h3 class="price"> 0.0%  </h3>
+                    <p class="price-name"> PORTFOLIO GROWTH  </p>
                 </div>            
             </div>
         </div>
@@ -58,7 +58,8 @@
                         <a href="{{ url('client/no-funds') }}">BUY</a>
                     </div>
                 </div>
-                <h3 class="clp-client-status">YOUR PERSONAL STATUS</h3>
+                {{-- Account status moved to top --}}
+                {{-- <h3 class="clp-client-status">YOUR PERSONAL STATUS</h3>
                 <ul class="clp-client-status-container">
                     <li class="clp-status">
                         <h4>R0.00</h4>
@@ -76,7 +77,7 @@
                         <h4>98.86%</h4>
                         <h6>PORTFOLIO GROWTH</h6>
                     </li>
-                </ul>
+                </ul> --}}
             </div>
         </div>
     </div>
