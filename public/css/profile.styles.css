@@ -71,6 +71,7 @@
   height: 750px;
   background-color: #fff;
   border-radius: 5px;
+  padding-left: 20px;
 }
 .cp-wrapper .cp-profile-container .cp-profile-details-container .cp-details-title {
   margin: 40px;
